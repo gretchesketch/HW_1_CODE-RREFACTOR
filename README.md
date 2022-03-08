@@ -8,5 +8,4 @@ Replaced all div elements with appropriate element sections. Removed class attri
 CSS:
 Combined repeated css properties. Used comments to describe the slecters and properties present. Updated useless classes to element selectors.
 
-live url:
-
+live url: https://gretchesketch.github.io/HW_1_CODE-RREFACTOR/
