@@ -1,13 +1,14 @@
+/*the website background style*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*background for whole page*/
 body {
     background-color: #d9dcd6;
 }
-
+/*header bar properyies*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,16 @@ header {
     color: #ffffff;
 }
 
+/*header display properties*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*changes the text color for the seo in horiseon*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/*navigation selectors*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +34,25 @@ header nav {
     font-size: 20px;
 }
 
+/*list style in header */
 header nav ul {
     list-style-type: none;
 }
-
+/*headers display properties*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*link text properties*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*property for all fonts*/
 p {
     font-size: 16px;
 }
-
+/*giant image at the top of page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +62,26 @@ p {
     background-position: center;
 }
 
+/*makes the image float to the left of the container*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*makes the image float to the right of the container*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*gives the main content its structure*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*puts the section with menu elements to the right of the screen like a side bar*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +93,26 @@ p {
     background-color: #2589bd;
 }
 
+/*the spacing between each menu section*/
 menu {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*menu sections text properties*/
 menu h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*the menu bar icons properties*/
 menu img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* gives the main content section its look*/
 aside {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,16 +122,18 @@ aside {
     color: #ffffff;
 }
 
+/*the property size for the images in the main content section*/
 aside img {
     max-height: 200px;
 }
 
-
+/*the title text in the main section properties*/
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*the copyright information properties*/
 footer {
     padding: 30px;
     clear: both;
@@ -129,6 +142,7 @@ footer {
     font-size: 20px;
 }
 
+/*the h2 in the footer text size*/
 footer h2 {
     font-size: 20px;
 }
